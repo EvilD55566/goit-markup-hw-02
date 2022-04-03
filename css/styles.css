@@ -1,1 +1,9 @@
-.logo{background-color: aqua;}
+/* Каким будет цвет текста абзацев? */
+p {
+    color: blue;
+    background-color: orange;
+}
+
+p {
+    color: teal;
+}
