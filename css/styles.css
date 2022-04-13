@@ -4,9 +4,10 @@
   --footer-hero-color: #2f303a;
   --accent-color: #2196f3;
   --main-title-color: #212121;
+  --primary-text-color: #757575;
 }
 body {
-  color: #757575;
+  color: var(--primary-text-color);
   font-family: "Roboto", "Montserrat", sans-serif;
 }
 
@@ -213,5 +214,5 @@ a.adress-link {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--primary-text-color);
 }
